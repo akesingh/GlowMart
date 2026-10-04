@@ -1,0 +1,30 @@
+How GlowMart created from prompt.
+
+First prompt is shared with ChatGPT:
+You are expert in prompt engineering. I want to create a professional and modern looking beauty product website like https://www.nykaa.com/.  Please generate prompt  for the coding agent to create this kind of website.
+
+Response I got:
+
+Absolutely. For a coding agent, the prompt should be specific enough to drive architecture, UI/UX, responsive behavior, components, data, and implementation quality, while avoiding a direct copy of Nykaa's branding or proprietary design.
+You can give the following prompt directly to a coding agent such as Cursor, Claude Code, GitHub Copilot, or another agentic coding tool.
+
+The huge prompt was created by chat gpt, which is save in a word doc.
+
+
+
+
+I ask chat gpt to shorten it 
+This is too long. I need the prompt in brief in few paragraph having good info to generate a good site. Kindly generate as mention.
+
+Response by chat gpt:
+Sure. For a coding agent, a compact but high-signal prompt is actually better. Here is a version you can paste directly into the agent.
+
+You are an expert UI/UX designer and senior frontend developer. Build a **modern, premium beauty and cosmetics e-commerce website** inspired by the overall shopping experience of leading beauty marketplaces like Nykaa, but do not copy its branding, logo, proprietary assets, or exact design. Create an original brand called **GlowMart** with an elegant, sophisticated visual identity using a clean white background, subtle blush/rose accents, dark typography, premium product imagery, generous whitespace, and modern typography.
+
+Create a responsive homepage with a professional header containing the GlowMart logo, search bar, account, wishlist and cart icons, followed by category navigation and an elegant mega-menu. The homepage should include a large promotional hero banner, beauty categories, trending products, best sellers, new arrivals, deals, featured brands, beauty content/blog cards, trust indicators, newsletter signup, and a professional footer. Product cards should display product image, brand, name, rating, reviews, price, MRP, discount, wishlist button, badges such as "New" or "Bestseller", and an **Add to Bag** action with subtle hover animations.
+
+Also implement the essential e-commerce pages and interactions: **product listing with filters and sorting, product detail page with image gallery and reviews, search with autocomplete, shopping cart, wishlist, and a multi-step checkout experience**. Use realistic mock beauty-product data across Makeup, Skincare, Haircare, Fragrance, Bath & Body, Men's Grooming and Beauty Tools. Product browsing, search, filters, cart, wishlist and navigation should actually work rather than being static mockups.
+
+Use **React/Next.js, TypeScript and Tailwind CSS** with reusable components and clean architecture. Make the UI fully responsive for desktop, tablet and mobile, including a mobile-friendly header and bottom navigation. Add skeleton loaders, empty states, toast notifications, accessible controls, smooth but subtle animations, optimized images, and SEO-friendly page structure. Keep the application API-ready by separating mock data/services from UI components.
+
+The final result should look like a **real, polished commercial beauty marketplace**, not a basic CRUD application or template. Prioritize visual quality, usability, responsive design, reusable components and realistic e-commerce interactions. Before coding, inspect the existing project and adapt to its structure; then implement the site, test the major user flows, and fix any build, TypeScript or UI issues before finishing.
